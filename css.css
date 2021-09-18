@@ -1,0 +1,59 @@
+.title{
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+.title > p:last-child{
+    margin-left: auto;
+}
+.logo {
+    width : 6rem;
+    height : 5rem;
+    margin-right: 1rem;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.txt_size{
+    width: 40%;
+}
+.menu_but{
+    margin-right: 1rem;
+    border-radius: 1rem;
+    background-color: gray;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    width: 10rem;
+}
+.con_child{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.con_img{
+    width: 12rem;
+}
+.con2_img{
+    width: 30rem;
+}
+.con3_img{
+    float:left;
+    padding:0 15px 0 0;
+}
+.marg{
+    margin-bottom: 3rem;
+}
+.form_box{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 0 0 1rem 1rem;
+}
+.menu_box{
+    width: 60%;
+
+}
