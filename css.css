@@ -8,13 +8,15 @@
     margin-left: auto;
 }
 .logo {
-    width : 6rem;
-    height : 5rem;
+    width : 15%;
+    height : 10%;
     margin-right: 1rem;
 }
 .content{
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: auto;
 }
 .txt_size{
     width: 40%;
@@ -23,25 +25,22 @@
     margin-right: 1rem;
     border-radius: 1rem;
     background-color: gray;
-    padding: 1rem;
     text-align: center;
     color: white;
-    width: 10rem;
+    width: 7rem;
 }
 .con_child{
     margin: 1rem;
     display: flex;
     justify-content: space-around;
 }
-.con_img{
-    width: 12rem;
-}
-.con2_img{
-    width: 30rem;
-}
 .con3_img{
     float:left;
-    padding:0 15px 0 0;
+}
+img{
+width:100%;
+max-width: 100%;
+height: auto;
 }
 .marg{
     margin-bottom: 3rem;
@@ -53,7 +52,27 @@
 input{
     margin: 0 0 1rem 1rem;
 }
-.menu_box{
-    width: 60%;
-
+.youtube{
+    width:40%;
+    height:auto;
+}
+@media screen and (max-width:599px){
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .youtube{
+        width:100%;
+        height:auto;
+    }
+    .txt_size{
+        width: 100%;
+    }
+    p{
+        font-size: x-small;
+    }
+    span{
+        font-size: x-small;
+    }
 }
